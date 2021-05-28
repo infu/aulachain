@@ -1,8 +1,8 @@
 accounts:
-  - name: jarilo
+  - name: "jarilo"
     coins: ["20000test", "200000000aula"]
 validator:
-  name: jarilo
+  name: "jarilo"
   staked: "100000000aula"
 genesis:
   app_state:
@@ -11,17 +11,16 @@ genesis:
         bond_denom: "aula"
   mint:
     params:
-      mint_denom: aula
+      mint_denom: "aula"
   gov:
     deposit_params:
-      max_deposit_period: 172800s
       min_deposit:
         amount: "100000000"
-        denom: aula
+        denom: "aula"
   crisis:
     constant_fee:
       amount: "1000"
-      denom: aula
+      denom: "aula"
 build:
   binary: "aula"
 client:
