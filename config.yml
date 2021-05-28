@@ -15,7 +15,7 @@ genesis:
     gov:
       deposit_params:
         min_deposit:
-          amount: "100000000"
+        - amount: "100000000"
           denom: "aula"
     crisis:
       constant_fee:
