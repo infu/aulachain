@@ -1,16 +1,18 @@
 accounts:
-  - name: alice
-    coins: ["20000token", "200000000stake"]
-  - name: bob
-    coins: ["10000token", "100000000stake"]
+  - name: jarilo
+    coins: ["20000test", "200000000aula"]
 validator:
-  name: alice
-  staked: "100000000stake"
+  name: jarilo
+  staked: "100000000aula"
+genesis:
+  app_state:
+    staking:
+      params:
+        bond_denom: "aula"
+build:
+  binary: "aula"
 client:
   vuex:
     path: "vue/src/store"
   openapi:
     path: "docs/static/openapi.yml"
-faucet:
-  name: bob
-  coins: ["5token", "100000stake"]
