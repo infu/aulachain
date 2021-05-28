@@ -9,18 +9,18 @@ genesis:
     staking:
       params:
         bond_denom: "aula"
-  mint:
-    params:
-      mint_denom: "aula"
-  gov:
-    deposit_params:
-      min_deposit:
-        amount: "100000000"
+    mint:
+      params:
+        mint_denom: "aula"
+    gov:
+      deposit_params:
+        min_deposit:
+          amount: "100000000"
+          denom: "aula"
+    crisis:
+      constant_fee:
+        amount: "1000"
         denom: "aula"
-  crisis:
-    constant_fee:
-      amount: "1000"
-      denom: "aula"
 build:
   binary: "aula"
 client:
