@@ -9,16 +9,16 @@ genesis:
     staking:
       params:
         bond_denom: "aula"
-mint:
+  mint:
     params:
       mint_denom: aula
-gov:
+  gov:
     deposit_params:
       max_deposit_period: 172800s
       min_deposit:
-      - amount: "100000000"
+        amount: "100000000"
         denom: aula
-crisis:
+  crisis:
     constant_fee:
       amount: "1000"
       denom: aula
