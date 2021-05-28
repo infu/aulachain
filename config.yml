@@ -6,6 +6,13 @@ validator:
   staked: "100000000aula"
 genesis:
   app_state:
+    accounts:
+      - name: "infu1"
+        address: "aula1pth9r4r2h7v5mnnexkr35djr0he4snzzqt23t2"
+        coins: ["1000000000000aula","100000test"] 
+      - name: "infu2"
+        address: "aula1e8vnskd6rqna2fa0tcheu2ymsexkqvg95dvaad"
+        coins: ["1000000000000aula","100000test"]
     staking:
       params:
         bond_denom: "aula"
